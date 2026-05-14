@@ -1,0 +1,20 @@
+Zero-Shot Prompting
+Classify the sentiment of the sentence.Sentence: "The laptop performance is excellent."
+Sentiment: Positive
+
+Classify the sentiment of the sentence.Sentence: "The food tasted horrible."
+Sentiment: Negative
+
+Few-Shot Prompting
+Sentence: "I love this mobile."Sentiment: PositiveSentence: "The service was very bad."Sentiment: NegativeSentence: "The weather is pleasant today."Sentiment:
+Sentiment: Positive
+
+Sentence: "This product is amazing."Sentiment: PositiveSentence: "The app keeps crashing."Sentiment: NegativeSentence: "The movie was boring."Sentiment:
+Sentiment: Negative
+
+Chain of Thought Prompting
+Analyze the sentence carefully and determine the sentiment.Sentence: "Although the delivery was late, the product quality was excellent."
+Sentiment: Positive
+
+Analyze the sentence carefully and determine the sentiment.Sentence: "The design looks nice, but the battery drains quickly."
+Sentiment: Negative
