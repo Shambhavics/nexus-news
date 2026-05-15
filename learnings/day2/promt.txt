@@ -1,0 +1,72 @@
+1️⃣ Zero-Shot Prompting
+
+👉 You give only the task. No examples.
+
+Example prompts
+
+“Summarize the following paragraph in 3 lines.”
+“Translate this sentence into French: I love programming.”
+“Write a Python function to check if a number is prime.”
+“Explain what cloud computing is in simple terms.”
+
+✔ Model figures out the task without seeing examples.
+
+2️⃣ Few-Shot Prompting
+
+👉 You give some examples first, then ask the task.
+
+Example prompts
+
+“Convert English to Spanish:
+Hello → Hola
+Thank you → Gracias
+Good night → ?”
+“Classify sentiment:
+I love this phone → Positive
+This movie is boring → Negative
+The food was amazing → ?”
+“Convert numbers to words:
+5 → Five
+10 → Ten
+21 → ?”
+
+✔ Model learns pattern from examples.
+
+3️⃣ Chain-of-Thought Prompting
+
+👉 You ask the model to show step-by-step reasoning.
+
+Example prompts
+
+“Solve step by step: If a train travels 60 km in 1 hour, how far will it travel in 5 hours?”
+“Think step by step and calculate: What is 25 × 16?”
+“Explain your reasoning: Why does the Earth have seasons?”
+“Solve the math problem step by step: If I buy 3 pens costing ₹10 each and pay ₹50, how much change do I get?”
+
+✔ Encourages reasoning before final answer.
+
+4️⃣ Role-Based Prompting
+
+👉 You assign a role/persona to the model.
+
+Example prompts
+
+“Act as a teacher and explain photosynthesis.”
+“You are a fitness coach. Give a beginner workout plan.”
+“Act as a travel guide. Suggest places to visit in Goa.”
+“You are a career advisor. Suggest skills for IT jobs.”
+
+✔ Changes tone, style and depth.
+
+5️⃣ Prompt without Role + Specific Details (Generic Prompt)
+
+👉 Simple instruction without role or constraints.
+
+Example prompts
+
+“Explain machine learning.”
+“Write about healthy eating.”
+“Give tips to improve communication skills.”
+“Describe the benefits of exercise.”
+
+✔ Very general → output also general.
